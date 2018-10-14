@@ -7,7 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    
     <script src="../js/sea.js"></script>
+    <script>
+        seajs.use('main', function(){
+            console.log('入口文件引入完毕');
+        });
+    </script>
+    <script>
+        //console.log(a);   //这里报错，有可能是执行时main模块还没有完全引入
+        /* setTimeout(function(){
+            console.log(a);     //此处也报错，说明main下的变量也是私有变量
+        }, 1000); */
+        //console.log(b);
+    </script>
 </body>
 </html>
