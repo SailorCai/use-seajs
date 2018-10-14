@@ -1,0 +1,19 @@
+{
+  "name": "use-seajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SailorCai/use-seajs.git"
+  },
+  "author": "csl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SailorCai/use-seajs/issues"
+  },
+  "homepage": "https://github.com/SailorCai/use-seajs#readme"
+}
